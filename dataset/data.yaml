@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['APC-IFV', 'ART', 'CAR', 'MLRS', 'TANK', 'TRUCK']
+
+roboflow:
+  workspace: ojlehuha-aswwb
+  project: military-vehicles-detection-0jxhy
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ojlehuha-aswwb/military-vehicles-detection-0jxhy/dataset/11
